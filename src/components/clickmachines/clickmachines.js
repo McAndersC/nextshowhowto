@@ -20,8 +20,8 @@ const ClickMachines = () => {
 
         <h1>{totalCount}</h1>
 
-        <ClickMachine updateTotal={onTotalCountUpdate}></ClickMachine>
-        <ClickMachine updateTotal={onTotalCountUpdate}></ClickMachine>
+        <ClickMachine updateTotal={onTotalCountUpdate} amount={1}></ClickMachine>
+        <ClickMachine updateTotal={onTotalCountUpdate} amount={10}></ClickMachine>
 
     </div>
 
