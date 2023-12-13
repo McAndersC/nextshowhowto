@@ -1,0 +1,24 @@
+.navigation {
+
+    background-color: red;
+
+}
+
+.navigation.active {
+
+    background-color: green;
+
+}
+
+.navigation.active .navigationBar {
+
+    display: block;
+
+}
+
+.navigationBar {
+
+    display: none;
+    background-color: blue;
+
+}
