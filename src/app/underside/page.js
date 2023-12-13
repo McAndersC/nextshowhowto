@@ -13,7 +13,6 @@ const AvatarWithChildren = ({children}) => {
 const avatarsData = [
     {
         "name" : "Lars",
-        "surname" : "Christensen",
         "age" : 18,
         "imagePath" : "https://i.imgur.com/1bX5QH6.jpg"
     },

@@ -11,7 +11,7 @@ const ClickMachine = ({updateTotal, amount}) => {
         let newCount = count + amount;
 
         setCount(newCount)
-        updateTotal(newCount);
+        updateTotal(amount);
         
     }
 

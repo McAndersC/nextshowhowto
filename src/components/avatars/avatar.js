@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./avatar.module.css";
 
-const Avatar = ({name, age, imagePath, surname, data}) => {
+const Avatar = ({name, age, imagePath, surname = 'testnavn', data}) => {
 
     return <div className={styles.avatarContainer}>
 
