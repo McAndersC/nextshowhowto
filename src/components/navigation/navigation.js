@@ -24,6 +24,7 @@ const Navigation = () => {
                 | <Link href="/underside">Underside</Link> 
                 | <Link href="/clickmachine">Klik Maskine</Link> 
                 | <Link href="/enandenside">En anden side</Link>
+                | <Link href="/users">Users</Link>
             </div>
 
         </div>
