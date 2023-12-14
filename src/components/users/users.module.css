@@ -1,7 +1,15 @@
 .container {
 
-    width : 200px;
+    width : 500px;
     background-color: green;
     height: 100%;
     margin: auto auto;
+    padding : 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div {
+
+    width : 50%;
 }

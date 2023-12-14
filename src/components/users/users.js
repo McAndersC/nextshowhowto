@@ -13,6 +13,9 @@ const Users = () => {
     return (
         <div className={styles.container}>
             <User user={dummyUser}></User>
+            <User user={dummyUser}></User>
+            <User user={dummyUser}></User>
+            <User user={dummyUser}></User>
         </div>
     )
 }
